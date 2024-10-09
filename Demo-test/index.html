@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Influencer</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+        body{
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: #41a0a2;
+        }
+        .logo h1{
+            font-size: 59px;
+            text-decoration: line-through;
+            color: antiquewhite;
+        }
+
+       ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    color: aliceblue;
+}
+
+ul li img{
+    height: 20px;
+}
+
+.home {
+    height: 500px;
+    background-color: #161818;
+}
+h2 {
+    font-size: 20px;
+    color: blanchedalmond;
+}
+h2 :hover{
+    border-bottom: 2px solid black;
+}
+button {
+    font-size: 25px;
+    border-radius: 7px;
+    padding: 2px;
+    /* text-align: center; */
+    color: antiquewhite;
+    width: 120px;
+    height: 28px;
+    cursor: pointer;
+    border: none;
+    background-color: #010101;
+  
+}
+button:hover{
+    background-color: black;
+    color: antiquewhite;
+    border: 3px solid cadetblue;
+}
+.home {
+    height: 500px;
+    background-color: #161818;
+    padding: 4rem;
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(images/download.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    width: -webkit-fill-available;
+    background-size: contain;
+}
+
+.home h1 {
+    color: cadetblue;
+    font-size: 60px;
+}
+
+.concept {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* width: 200px; */
+}
+
+.box1 {
+    height: 300px;
+    width: 350px;
+    background: cadetblue;
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-left: 40px;
+    border-bottom: 5px solid white;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.top h1{
+    color: aliceblue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+
+    
+    
+        <nav>
+            <div class="logo">
+               <h1>DJ</h1>
+            </div>
+            <div class="list-item">
+                <ul>
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>Service</li>
+                    <li>Works</li>
+                    <li>Contact</li>
+                    <li><img src="images/search-icon.jpg" alt=""></li>
+                </ul>
+            </div>  
+        </nav>
+
+        <main>
+            <div class="home">
+                <h2>
+                 |CREATIVE MIND & CREATIVE WORKS|
+                </h2>
+                <h1>
+                    We Are Social <br> &nbsp;InFluencer.
+                </h1>
+                <button>
+                    Let Start
+                </button>
+            </div>
+            <div class="concept">
+                <div class="box1">
+                    <img src="images/plane.jpg" alt="">
+                    <h2>Future Concept</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="box2 box1">
+                    <img src="images/brain.png" alt="">
+                    <h2>The Big Ideas</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="box3 box1">
+                    <img src="images/bulb.png" alt="">
+                    <h2>Creative Solutions</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="top">
+                    <h1>
+                        ---Services.
+                    </h1>
+                    <h2>
+                        Our Services For Client.
+                    </h2>
+                </div>
+
+                <div class="grid">
+                    <div class="box4 box1">
+                        <img src="images/bulb.png" alt="">
+                    <h2>Digital Strategy</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+
+                    <div class="box5 box1">
+                        <img src="images/bulb.png" alt="">
+                    <h2>UX Designs</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+
+                    <div class="box6 box1">
+                        <img src="images/bulb.png" alt="">
+                    <h2>UI Designs</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+
+                    <div class="box7 box1">
+                        <img src="images/bulb.png" alt="">
+                    <h2>Social Media</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+
+                    <div class="box8 box1">
+                        <img src="images/bulb.png" alt="">
+                    <h2>Design Concept</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+
+                    <div class="box9 box1">
+                        <img src="images/bulb.png" alt="">
+                    <h2>Media Pairing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+
+                   
+                </div>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            <h2>@copyright and designed by KHADIJA TAZEEN</h2>
+        </footer>
+    
+</body>
+</html>
